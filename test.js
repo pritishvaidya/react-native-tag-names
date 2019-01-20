@@ -15,7 +15,7 @@ test('`react-native-tags/void` is an array of void React Native Void string tags
 	t.true(Array.isArray(voidReactNativeTags));
 	t.true(voidReactNativeTags.length > 10 && voidReactNativeTags.length < 1000);
 
-	reactNativeTags.forEach(tagName => {
+	voidReactNativeTags.forEach(tagName => {
 		t.true(typeof tagName === 'string');
 	});
 });
