@@ -1,0 +1,23 @@
+[
+  "ActivityIndicator",
+  "Button",
+  "Checkbox",
+  "DatePickerIOS",
+  "FlatList",
+  "Image",
+  "ListView",
+  "ProgressBarAndroid",
+  "ProgressViewIOS",
+  "SectionList",
+  "SegmentedControlIOS",
+  "Slider",
+  "Switch",
+  "RefreshControl",
+  "StatusBar",
+  "SwipeableFlatList",
+  "SwipeableListView",
+  "TextInput",
+  "ToolbarAndroid",
+  "VirtualizedList",
+  "WebView"
+]

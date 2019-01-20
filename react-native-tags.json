@@ -1,0 +1,22 @@
+[
+  "DrawerLayoutAndroid",
+  "ImageBackground",
+  "InputAccessoryView",
+  "KeyboardAvoidingView",
+  "MaskedViewIOS",
+  "Modal",
+  "Picker",
+  "PickerIOS",
+  "SafeAreaView",
+  "ScrollView",
+  "SnapshotViewIOS",
+  "TabBarIOS",
+  "Text",
+  "Touchable",
+  "TouchableHighlight",
+  "TouchableNativeFeedback",
+  "TouchableOpacity",
+  "TouchableWithoutFeedback",
+  "View",
+  "ViewPagerAndroid"
+]
