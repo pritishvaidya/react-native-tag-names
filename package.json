@@ -1,0 +1,38 @@
+{
+  "name": "react-native-tag-names",
+  "version": "0.0.1",
+  "description": "List of standard React Native Tags",
+  "author": {
+    "name": "Pritish Vaidya",
+    "email": "pritishvaidya94@gmail.com",
+    "url": "pritishvaidya.com"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritishvaidya/react-native-tag-names.git"
+  },
+  "keywords": [
+    "react-native",
+    "tags",
+    "name",
+    "list",
+    "self-closing",
+    "void",
+    "react-native-tag-names"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pritishvaidya/react-native-tag-names/issues"
+  },
+  "homepage": "https://github.com/pritishvaidya/react-native-tag-names#readme",
+  "devDependencies": {
+    "ava": "^1.1.0",
+    "xo": "^0.24.0"
+  }
+}
