@@ -7,9 +7,9 @@ addons:
   code_climate:
     repo_token:
       secure: "Uigo1j3sA1pau35x4VTlzh4eqs5Ii5qBEkzv/HCGrMdVLUKzZFR74TSdyEtAq7GP+rjiZJ8FKWbs3f5VpV7dk4i1gIeIeclhgiWrLZr0lXCLZLiGnVm2Hf+u2uLy9i77NvuwNreG08dK1XUkBcKury1MuKsDZf1rIZsQEML3Wcxco15g7udiee8sHeaZ1mHgRLY45CyoHD/o/82jPz1nCRWGMGzXtNrejM+zI6fuXhijuUMS+tO0D+PTDvtxoOXp9h5s/A98Ro6pfwdsaN9Koi/VRn9o++Mp3wW9fF7ap09McItEPOcOE9BlBC8quhi9zcwrROqLxaoImRMBowTBGoQYrcHCGXUI+6cGooUxe9rGMz3lSL/r6Ha22EmKTaODxQrVCbAweBWbR/lDUB6i495Uqf8n5RhthwOfFaLcK3XGtiLAis9bpeskxN/P5+eiNHBHFIsoNFB1atqbGE4jkqWNG4rGwybhYZ/oSozcTWn1aubmgilJKhjJ+BSHWZl04vD8GaWKU3pyVua8n4JsYR/J9N9O6lWvmiEMRAaX7FZESWWdEiREpvj3CPgQXHH4LUNLGMBBStXW0RQKujz7Cp7FzC0rdXRP9WADL2+p87l2iJVjiSNOLCLf3geafbLSGVJ0oB/KAfZLRaIRXKoZ+d7uNy/bTwBRwReB5b+4i7Y="
-script: xo && ava
+script: npm test
 before_script:
-- npm install codeclimate-test-reporter xo ava -g
+- npm install codeclimate-test-reporter nyc xo ava -g
 after_script:
 - codeclimate-test-reporter < ./coverage/lcov.info
 notifications:

@@ -8,7 +8,7 @@
     "url": "pritishvaidya.com"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && nyc --reporter=lcov ava"
   },
   "engines": {
     "node": ">=4"
@@ -33,6 +33,7 @@
   "homepage": "https://github.com/pritishvaidya/react-native-tag-names#readme",
   "devDependencies": {
     "ava": "^1.1.0",
+    "nyc": "^13.1.0",
     "xo": "^0.24.0"
   }
 }
